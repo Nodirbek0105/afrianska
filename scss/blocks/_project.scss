@@ -1,0 +1,103 @@
+.project{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  .bottom{
+    color: #fff;
+    h2 {
+      font-size: 47px;
+      font-weight: 400;
+      text-transform: capitalize;
+    }
+    p{
+      font-size: 28px;
+      font-weight: 400;
+    }
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    .left{
+    background-image: url(../../img/Mask\ Group1.png);
+    width: 560px;
+    height: 500px;
+    padding: 30px;
+    justify-content: start;
+    align-items: flex-start;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    color: #fff;
+    h2 {
+      font-size: 47px;
+      font-weight: 400;
+      text-transform: capitalize;
+    }
+    p{
+      font-size: 28px;
+      font-weight: 400;
+    }
+    }
+    .right{
+      background-image: url(../../img/Mask\ Group2.png);
+      width: 560px;
+      height: 500px;
+      padding: 30px;
+      justify-content: start;
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 30px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      color: #fff;
+    h2 {
+      font-size: 47px;
+      font-weight: 400;
+      text-transform: capitalize;
+    }
+    p{
+      font-size: 28px;
+      font-weight: 400;
+    }
+      }
+  }
+  .top-img{
+    background-image: url(../../img/Mask\ Group.png);
+    width: 1200px;
+    height: 500px;
+    padding: 30px;
+    justify-content: end;
+    align-items: flex-start;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    .words{
+      color: #fff;
+      h2 {
+        font-size: 47px;
+        font-weight: 400;
+        text-transform: capitalize;
+      }
+      p{
+        font-size: 28px;
+        font-weight: 400;
+      }
+    }
+  }
+  &-title{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    h2{
+      color: #1d3d66;
+      font-size: 60px;
+      width: 400px;
+      text-transform: capitalize;
+    }
+    p{
+      font-size: 18px;
+      color: #aaa;
+      width: 700px;
+    }
+  }
+}

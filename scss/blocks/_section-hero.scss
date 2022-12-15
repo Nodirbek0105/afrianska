@@ -1,0 +1,47 @@
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  .hero-button {
+    background-color: #5d9ad0;
+    width: 200px;
+    padding: 15px 20px;
+    font-size: 19px;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+  }
+  .hero-title {
+    color: #1d3d66;
+    font-size: 44px;
+  }
+  .hero-description {
+    color: #a6b3c3;
+    font-size: 23px;
+  }
+}
+
+.hero-section {
+  display: flex;
+  background-image: linear-gradient(to bottom, #fff, #fff, #eaf3fa);
+}
+
+.right {
+  background-image: url(../../img/illustration.png);
+  width: 820px;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+
+.hero-section{
+  .left{
+    max-width: 380px;
+  }
+}
+
+// .hero {
+//   margin-top: 3000px;
+// }
