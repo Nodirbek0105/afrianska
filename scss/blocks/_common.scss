@@ -6,6 +6,7 @@
 
 html{
   scroll-behavior: smooth;
+  height: 100vh;
 }
 
 body {
@@ -16,12 +17,7 @@ body {
 }
 
 .container {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  flex-direction: column;
-  position: relative;
-  align-items: center;
+  height: 100vh;
   main{
     display: flex;
     justify-content: center;
@@ -29,4 +25,9 @@ body {
     flex-direction: column;
     width: 1200px;
   }
+}
+
+.right-transform {
+  right: -100%;
+  transition: .3s ease-in-out;
 }
