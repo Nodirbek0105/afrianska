@@ -2,6 +2,67 @@
   display: flex;
   flex-direction: column;
   gap: 40px;
+  
+  @media (max-width: $tablet-g) {
+    max-width: $tablet-g;
+    width: $tablet-g;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .project-title{
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+    }
+    .top-img{ 
+    width: $tablet-g !important  
+    }
+    .bottom{
+      flex-direction:column;
+      width:$tablet-g
+    }
+  }
+  @media (max-width: $tablet) {
+    max-width: $tablet;
+    width: $tablet;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .project-title{
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+    }
+    .top-img{
+     width: $tablet !important; 
+    }
+    .bottom{
+      width:$tablet;
+      flex-direction:column;
+      .left , .right{
+      width:$tablet !important;
+      }
+    }
+  }
+  @media (max-width: $phone) {
+    max-width: $phone;
+    width: $phone;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .project-title{
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+    }
+    .top-img{
+    width: $phone !important;   
+    }
+    .bottom{
+      flex-direction:column;
+      width:$phone
+    }
+  }
   .bottom{
     color: #fff;
     h2 {

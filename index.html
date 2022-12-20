@@ -8,30 +8,40 @@
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    <div class="container">
+    <div data-container="" class="container">
       <header class="header">
-        <h1>
-          <img src="./img/Group.svg" alt="afrianska logo" />
-        </h1>
-        <input type="checkbox" name="for hamburger" id="hamburger" />
-        <label data-label for="hamburger" class="menu"><img src="./img/Vector.svg" alt=""></label>
-        <nav class="navbar">
-          <ul id="list" data-ul class="right-transform">
-            <li class="hamburger-list-item">
-              <input type="checkbox" name="for hamburger" id="hamburger" />
-              <label data-label2 for="hamburger" class="menu"><img data-img src="./img/Vector.svg" alt=""></label>      
-            </li>
-            <li class="hamburger-list-item">
-              <a href="/" class="hamburegr-list-item-link"> HOME </a>
-            </li>
-            <li class="hamburger-list-item">
-              <a href="/" class="hamburegr-list-item-link"> HOME </a>
-            </li>
-            <li class="hamburger-list-item">
-              <a href="/" class="hamburegr-list-item-link"> HOME </a>
-            </li>
-          </ul>
-        </nav>
+        <div class="header-wrapper">
+          <h1>
+            <img src="./img/Group.svg" alt="afrianska logo" />
+          </h1>
+          <input type="checkbox" name="for hamburger" id="hamburger" />
+          <label data-label for="hamburger" class="menu"
+            ><img class="menu-img" src="./img/Vector.svg" alt=""
+          /></label>
+          <nav class="navbar">
+            <ul id="list" data-ul class="right-transform">
+              <li class="hamburger-list-item">
+                <input type="checkbox" name="for hamburger" id="hamburger" />
+                <label data-label2 for="hamburger" class="menu"
+                  ><img
+                    class="menu-img2"
+                    data-img
+                    src="./img/Vector.svg"
+                    alt=""
+                /></label>
+              </li>
+              <li class="hamburger-list-item">
+                <a href="/" class="hamburegr-list-item-link"> HOME </a>
+              </li>
+              <li class="hamburger-list-item">
+                <a href="/" class="hamburegr-list-item-link"> HOME </a>
+              </li>
+              <li class="hamburger-list-item">
+                <a href="/" class="hamburegr-list-item-link"> HOME </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </header>
       <main class="main">
         <section class="hero-section">
@@ -44,7 +54,9 @@
             </p>
             <button class="hero-button">See Our Project</button>
           </div>
-          <div class="right"></div>
+          <div width="820" height="700" class="right">
+            <img src="./img/illustration.png" alt="" />
+          </div>
         </section>
         <section class="do">
           <div class="do-left">
@@ -106,38 +118,27 @@
           </div>
           <div class="top-img">
             <div class="words">
-              <h2>
-                smart home  installation
-              </h2>
-              <p>
-                Lorem ipsum dolor sit amet.
-              </p>
+              <h2>smart home installation</h2>
+              <p>Lorem ipsum dolor sit amet.</p>
             </div>
           </div>
           <div class="bottom">
             <div class="left">
               <h2>Lorem, ipsum.</h2>
-              <p>
-                Lorem ipsum dolor sit amet.
-              </p>
+              <p>Lorem ipsum dolor sit amet.</p>
             </div>
             <div class="right">
               <h2>Lorem, ipsum.</h2>
-              <p>
-                Lorem ipsum dolor sit amet.
-              </p>
+              <p>Lorem ipsum dolor sit amet.</p>
             </div>
           </div>
         </section>
         <!-- <img class="hero" src="./img/Hero.png" alt=""> -->
       </main>
       <footer class="footer">
-        <div class="top">
-          
-        </div>
+        <div class="top"></div>
       </footer>
     </div>
     <script src="./js/main.js"></script>
-    <script src="./js/pokedex.js"></script>
   </body>
 </html>

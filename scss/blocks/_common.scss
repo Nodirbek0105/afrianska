@@ -18,7 +18,31 @@ body {
 
 .container {
   height: 100vh;
+  @media (max-width: $tablet-g) {
+    max-width: $tablet-g;
+    width: $tablet-g;
+  }
+  @media (max-width: $tablet) {
+    max-width: $tablet;
+    width: $tablet;
+  }
+  @media (max-width: $phone) {
+    max-width: $phone;
+    width: $phone;
+  }
   main{
+    @media (max-width: $tablet-g) {
+      max-width: $tablet-g;
+      width: $tablet-g;
+    }
+    @media (max-width: $tablet) {
+      max-width: $tablet;
+      width: $tablet;
+    }
+    @media (max-width: $phone) {
+      max-width: $phone;
+      width: $phone;
+    }
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -30,4 +54,9 @@ body {
 .right-transform {
   right: -100%;
   transition: .3s ease-in-out;
+}
+
+.z-index{
+  z-index: -1;
+  position: absolute;
 }

@@ -27,17 +27,35 @@
   background-image: linear-gradient(to bottom, #fff, #fff, #eaf3fa);
 }
 
-.right {
-  background-image: url(../../img/illustration.png);
-  width: 820px;
-  height: 700px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-}
+// .right {
+  // background-image: url(../../img/illustration.png);
+  // width: 820px;
+  // height: 700px;
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // display: flex;
+// }
 
 .hero-section{
   margin-top: 130px;
+  @media (max-width: $tablet-g) {
+    max-width: $tablet-g;
+    width: $tablet-g;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  @media (max-width: $tablet) {
+    max-width: $tablet;
+    width: $tablet;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  @media (max-width: $phone) {
+    max-width: $phone;
+    width: $phone;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
   .left{
     max-width: 380px;
   }

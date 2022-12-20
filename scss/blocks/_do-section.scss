@@ -35,6 +35,33 @@
   display: flex;
   width: 1200px;
   justify-content: space-between;
+  @media (max-width: $tablet-g) {
+    max-width: $tablet-g;
+    width: $tablet-g;
+    flex-direction: column;
+    align-items: center;
+    .do-right{
+      justify-content: center;
+    }
+  }
+  @media (max-width: $tablet) {
+    max-width: $tablet;
+    width: $tablet;
+    flex-direction: column;
+    align-items: center;
+    .do-right{
+      justify-content: center;
+    }
+  }
+  @media (max-width: $phone) {
+    max-width: $phone;
+    width: $phone;
+    flex-direction: column;
+    align-items: center;
+    .do-right{
+      justify-content: center;
+    }
+  }
 }
 
 
