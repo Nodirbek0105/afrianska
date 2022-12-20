@@ -27,14 +27,18 @@
   background-image: linear-gradient(to bottom, #fff, #fff, #eaf3fa);
 }
 
-// .right {
-  // background-image: url(../../img/illustration.png);
-  // width: 820px;
-  // height: 700px;
-  // background-repeat: no-repeat;
-  // background-size: cover;
+.right {
+  background-image: url(../../img/illustration.png);
+  max-width: 820px;
+  max-height: 700px;
+  width: 820px ;
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
   // display: flex;
-// }
+  
+}
 
 .hero-section{
   margin-top: 130px;

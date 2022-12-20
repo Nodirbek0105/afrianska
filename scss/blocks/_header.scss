@@ -30,18 +30,63 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    @media (max-width: $destkop) {
+      max-width: $destkop;
+      width: $destkop;
+      h1{
+        position: absolute;
+        left: 40px;
+      }
+      label{
+        .menu-img{
+        right: 40px;
+        position: absolute;
+        }
+      }
+    }
 
     @media (max-width: $tablet-g) {
       max-width: $tablet-g;
       width: $tablet-g;
+      h1{
+        position: absolute;
+        left: 20px;
+      }
+      label{
+        .menu-img{
+        right: 20px;
+        position: absolute;
+        }
+      }
     }
     @media (max-width: $tablet) {
       max-width: $tablet;
       width: $tablet;
+      h1{
+        
+        position: absolute;
+        left: 20px;
+      }
+      label{
+        .menu-img{
+        right: 20px;
+        position: absolute;
+        }
+      }
     }
     @media (max-width: $phone) {
       max-width: $phone;
       width: $phone;
+      h1{
+        left: 20px;
+        position: absolute;
+      }
+      label{
+        img{
+        right: 20px;
+        position: absolute;
+        }
+      }
     }
     * {
       margin: 0;
